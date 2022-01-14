@@ -21,7 +21,7 @@ body
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    margin: 50px;
+    margin: 25px;
     background-color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -66,6 +66,125 @@ body
     height: 100%;
     object-fit: cover;
 }
+
+.profile h1
+
+{
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.contact
+{
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 1px;
+    border-style: solid;
+    
+    
+}
+
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 30px 20px;
+}
+
+.contact ul li button
+{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border-width: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.awards
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.awards h2
+{
+    color: blue;
+}
+
+.awards p
+{
+    text-align: left;
+    padding-left: 9px;
+}
+
+hr
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2px;
+    border-width: auto;
+    border-color: blue
+}
+
+.certifications
+
+{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.certifications h2
+{
+    text-transform: capitalize;
+    color: blue;
+}
+
+.certifications td
+{
+    text-align: left;
+    font-size: 10px;
+}
+
+.certifications span
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.certifications .date
+{
+    text-align: right;
+    font-size: 10px;
+}
+
+.hobbies
+{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 20px; 
+}
+
+.hobbies h2
+{
+    color: blue;
+}
+
+.hobbies ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 20px 20px;
+}
+
 
 .container .right_Side
 {
