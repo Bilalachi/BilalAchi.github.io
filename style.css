@@ -324,9 +324,10 @@ hr
 
 .lang2
 {
+    position: absolute;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 340px;
+    margin-left: 350px;
     
 }
 
