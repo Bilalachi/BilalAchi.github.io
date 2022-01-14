@@ -82,7 +82,8 @@ body
     text-align: center;
     font-weight: 500;
     letter-spacing: 1px;
-    border: 1px;
+    border: 4px;
+    border-color: rgb(42, 128, 240);
     border-style: solid;
     
     
@@ -116,7 +117,7 @@ body
 
 .awards h2
 {
-    color: blue;
+    color: rgb(42, 128, 240);
 }
 
 .awards p
@@ -131,7 +132,7 @@ hr
     margin-bottom: 10px;
     height: 2px;
     border-width: auto;
-    border-color: blue
+    border-color: rgb(42, 128, 240);
 }
 
 .certifications
@@ -144,8 +145,8 @@ hr
 
 .certifications h2
 {
-    text-transform: capitalize;
-    color: blue;
+    text-transform: uppercase;
+    color: rgb(42, 128, 240);
 }
 
 .certifications td
@@ -175,7 +176,7 @@ hr
 
 .hobbies h2
 {
-    color: blue;
+    color: rgb(42, 128, 240);
 }
 
 .hobbies ul li
@@ -192,4 +193,93 @@ hr
     background-color: whitesmoke;
     padding: 40px;
     
+}
+
+.objective h2
+{
+    text-align: left;
+    color: rgb(42, 128, 240);
+    text-transform: uppercase;
+}
+
+.work
+{
+    padding-top: 20px;
+}
+
+.work h2
+{
+    text-align: left;
+    color: rgb(42, 128, 240);
+    text-transform: uppercase;
+}
+
+.work .company
+{
+    text-align: left;
+    font-weight: bold;
+}
+
+.work .date
+{
+    padding-left: 200px;
+    font-size: 12px;
+}
+
+.work ul li
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    list-style: none;
+    font-size: 12px;
+}
+
+.education
+{
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.education h2
+{
+    text-align: left;
+    color: rgb(42, 128, 240);
+    text-transform: uppercase
+}
+
+.education h3
+{
+    text-align: left;
+    
+}
+
+.education .date
+{
+    padding-left: 80px;
+    font-size: 12px;
+}
+
+.skills
+{
+    padding-top: 20px;
+}
+
+.skills h2
+{
+    text-align: left;
+    color: rgb(42, 128, 240);
+    text-transform: uppercase
+}
+
+.skills .skill
+
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.skills p
+{
+    padding-bottom: 10px;
+    font-size: 12px;
 }
