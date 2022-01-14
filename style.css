@@ -283,3 +283,63 @@ hr
     padding-bottom: 10px;
     font-size: 12px;
 }
+
+.projects
+{
+    padding-top: 20px;
+}
+
+.projects h2
+{
+    text-align: left;
+    color: rgb(42, 128, 240);
+    text-transform: uppercase
+}
+
+.projects h3
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.languages
+{
+    padding-top: 20px;
+}
+
+.languages h2
+{
+    text-align: left;
+    color: rgb(42, 128, 240);
+    text-transform: uppercase
+}
+
+.lang1
+{
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
+
+.lang2
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 340px;
+    
+}
+
+.languages p
+{
+    font-weight: bold;
+}
+
+.languages .level
+{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+
